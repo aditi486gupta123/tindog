@@ -1,0 +1,138 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+#title{
+    background-color:#ff4c68;
+}
+.container-fluid{
+    padding: 5% 15% 9.2%;
+}
+h1{ 
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 3em;
+    line-height: 1.5 ;
+    margin-top: 25px;
+}
+
+.nav-item{
+    padding: 0 20px;
+}
+.nav-link{
+    font-size: 20px;
+}
+.navbar-brand{
+    font-size: 35px;
+}
+.navbar{
+    padding: 0 0 20px 0;
+}
+.dog-img{
+    transform: rotate(25deg);
+    margin-top: 50px;
+    margin-left: 100px;
+    height: 525px;
+    position: absolute;
+    
+}
+.download-button{
+    margin: 2px 20px 20px 0px;
+}
+.container-fluid features{
+    display: inline;
+}
+
+#features{
+    padding: 6%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(252, 239, 239);
+    position: relative;
+}
+.Feature-box{
+    text-align: center;
+    padding: 2%;
+}
+.icon{
+    margin-bottom: 1rem;
+    color:#ff4c68;
+}
+.icon:hover{
+    color: #fa92a2;
+}
+
+#testimonials{
+    background-color: rgb(247, 100, 119);
+    color: white;
+    text-align: center;
+    padding:10%;
+}
+.testimonial-image{
+    border-radius: 100%;
+    margin-top: 30px;
+    width: 18%;
+}
+.testimonial-text{
+    font-size: 2.6rem;
+    padding-right: 15%;
+    padding-left: 15%;
+}
+#press{
+    background-color:rgb(247, 100, 119);
+    text-align: center;
+}
+.testimonial-logo{
+    height: 50px;
+    margin: 10px 20px 20px 20px;
+}
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+    background-color: rgb(248, 213, 213);
+    font-family: 'Montserrat';
+}
+
+.pricing-head{
+    font-size: 40px;
+}
+.Pricing-colum{
+    padding: 3% 2%;
+}
+
+.head-cr{
+    background-color: rgb(250, 89, 124);
+}
+.body-cr{
+    background-color: rgb(248, 172, 180);
+}
+
+@media ( max-width: 1028px)
+{ #title{
+    text-align: center;
+}
+    .dog-img
+    {
+    position: static;
+    transform: rotate(0deg);
+}
+
+}
+.cta{
+    font-size: 60px;
+    margin-bottom: 40px;
+    padding: 2% 15%;
+}
+#cta{
+    font-family: "Ubuntu";
+    padding: 5%;
+    background-color: rgb(248, 94, 101);
+    text-align: center;
+}
+#footer{
+    padding: 5%;
+    background-color: rgb(252, 237, 209);
+    text-align: center;
+}
+.foot{
+    padding: 3% 1%;
+}
